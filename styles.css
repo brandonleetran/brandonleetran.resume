@@ -1,0 +1,119 @@
+html, body {
+    background-color: black;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.64);
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;}
+
+main {
+    max-width: 500px;
+    margin: auto;
+    padding: 50px 15px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+i {
+    color: white;
+    margin-left: 5px;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: inherit;
+}
+
+h1, h2 {
+    color: white;
+    font-weight: 500;
+    line-height: inherit;
+}
+
+.about--flex {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+ul {
+    padding-left: 10px;
+}
+
+a:not(.download-btn) {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin: 5px 0;
+}
+
+figure {
+    margin: 0 25px 0 0;
+    z-index: 1000;
+    position: relative;
+}
+
+img {
+    transition: transform .3s ease-out;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 3fr 1.5fr;
+    grid-gap: 20px 40px;
+}
+
+.link-container {
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+}
+
+.tech-stack {
+    color: white;
+    opacity: .5;
+}
+
+.download-btn {
+    font-size: 10px;
+    background-color: rgb(121, 131, 245);
+    color: white;
+    letter-spacing: 1px;
+    padding: 3px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: auto;
+}
+
+.download-btn:hover {
+    text-decoration: none;
+}
