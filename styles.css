@@ -95,13 +95,13 @@ p {
 
 .grid__container {
     display: grid;
-    grid-template-columns: 3fr 1.5fr;
+    grid-template-columns: 4fr 2fr;
     grid-gap: 24px 40px;
 }
 
 .link-container {
     display: grid;
-    grid-template-columns: .5fr 1fr;
+    grid-template-columns: 1fr 2fr;
 }
 
 .tech-stack {
