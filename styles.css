@@ -110,7 +110,7 @@ p,
     opacity: .5;
 }
 
-.download-btn {
+#download-btn {
     font-weight: inherit;
     font-size: 10px;
     line-height: 2.2;
@@ -124,6 +124,6 @@ p,
     margin-left: auto;
 }
 
-.download-btn:hover {
+#download-btn:hover {
     text-decoration: none;
 }
