@@ -91,7 +91,7 @@ p {
 
 .grid__container {
     display: grid;
-    grid-template-columns: 4fr 2fr;
+    grid-template-columns: 2fr 1fr;
     grid-gap: 24px 40px;
 }
 
